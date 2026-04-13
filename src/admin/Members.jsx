@@ -5,7 +5,7 @@ import { getTrainers } from '../services/trainerService';
 import { getDietPlans } from '../services/dietService';
 import { uploadToCloudinary, getInitials } from '../utils/cloudinaryUpload';
 import { toast } from 'react-toastify';
-import { FiPlus, FiSearch, FiEdit2, FiTrash2, FiX, FiUpload, FiPhone, FiCalendar } from 'react-icons/fi';
+import { FiPlus, FiSearch, FiEdit2, FiTrash2, FiX, FiUpload} from 'react-icons/fi';
 import { format, addMonths, differenceInDays } from 'date-fns';
 
 const PLANS = ['1 Month', '3 Months', '6 Months', '1 Year'];

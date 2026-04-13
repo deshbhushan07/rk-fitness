@@ -4,7 +4,7 @@ import { getMembers } from '../services/memberService';
 import { getPayments, getMonthlyRevenue } from '../services/paymentService';
 import { getTodayAttendance } from '../services/attendanceService';
 import { getTrainers } from '../services/trainerService';
-import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import { FiUsers, FiTrendingUp, FiCalendar, FiUserCheck, FiAlertCircle, FiClock } from 'react-icons/fi';
 import { format, addMonths, differenceInDays } from 'date-fns';
 
